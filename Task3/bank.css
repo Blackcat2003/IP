@@ -3,7 +3,7 @@
     margin: 0%;
 }
 #navbar{
-    height: 50px;
+    height: 30px;
     background-color:deepskyblue;
     color: black;
     padding-top: 15px;
@@ -12,25 +12,31 @@
 
 #head{
     color:crimson;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-}
-
-#search{
-    text-align: right;
 }
 
 a{
     text-decoration: none;
-    margin-right: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 90px;
     font-size: 20px;
     color:black
 }
 
 #search{
-    height: 20px; width: 80px;
+    height: 30px; width: 100px;
+    background-color:darkblue;
+    color: aliceblue;
+    text-align: center;
 
 }
+
+/* search button:hover{
+    box-shadow: 0 10px 10px rgb(0,0,255,1);
+    
+} */
 
 a:hover{
     background-color: aliceblue;
@@ -39,21 +45,23 @@ a:hover{
 #bg{
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
-    border: 5px solid blue;
-    margin: 10px;
+    padding: 10px;
+    border: 10px solid blue;
+    border-image: linear-gradient(blue, deepskyblue)30;
+    /* margin: 10px; */
 }
 
 .box{
     display: inline-block;
-    margin: 20px;
-    
-    
+    /* margin: 20px; */
+    margin-left: 50px;
 }
 
 .box img:hover{
-    box-shadow: 0 10px 10px rgb(0,0,0,1);
+    box-shadow: 0 10px 20px  rgb(0,0,0,1);
 }
+
+
 
 #img1{
     margin: 20px;
@@ -67,3 +75,7 @@ a:hover{
 #img4{
     margin: 20px;
 }
+#img5{
+    margin: 20px;
+}
+
